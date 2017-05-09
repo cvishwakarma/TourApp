@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+    
+   <Button 
+        android:id="@+id/tb_btn_pay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/tb_btn_pay"
+        android:background="@drawable/grid_press"
+        />
+    
+  <ScrollView 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/tb_btn_pay"
+      >
+      
+   <LinearLayout
+        android:id="@+id/tbv_lv_ll_bar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:padding="5sp"
+       >
+   
+	<TextView 
+       android:id="@+id/tb_tv_output"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        
+        />
+
+	  </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

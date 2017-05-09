@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    
+    
+      <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         android:src="@drawable/sp"
+         android:layout_marginTop="15sp" 
+         android:layout_marginLeft="310sp"
+         android:background="@drawable/grid_graypress"
+       />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10sp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:onClick="pageaction"
+            android:text="New Packages" 
+            android:background="@drawable/grid_press"
+            />
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:onClick="pageaction"
+            android:text="Booking" 
+            android:background="@drawable/grid_press"
+                       />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:onClick="pageaction"
+            android:text="Customized Pakages"
+            android:background="@drawable/grid_press"
+                         />
+        
+         <Button
+            android:id="@+id/btn_enquiry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:onClick="pageaction"
+            android:text="Enquiry" 
+            android:background="@drawable/grid_press"
+            
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         android:src="@drawable/logo" 
+         android:layout_marginTop="70sp"
+         />
+
+</RelativeLayout>

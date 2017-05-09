@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10sp"
+    android:background="@drawable/theme2"
+     android:padding="10sp"
+     >
+    
+    
+    
+    
+       <TextView 
+        android:id="@+id/tb_lv_tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_margin="20sp"
+        android:textColor="@color/heading_name_color"
+        />
+    <LinearLayout
+        android:id="@+id/tb_lv_ll_bar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_below="@id/tb_lv_tv_name"
+        android:gravity="center"
+        android:padding="5sp"
+        android:layout_marginLeft="10sp"
+        
+       >
+        
+        <TextView 
+            android:id="@+id/tb_lv_tv_gender"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Gender"
+        	android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+            />
+       
+         <TextView 
+            android:id="@+id/tb_lv_tv_age"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Age"
+            android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+            />
+       
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/tb_lv_ll_bar2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_below="@id/tb_lv_ll_bar1"
+         android:padding="5sp"
+          android:layout_marginLeft="10sp"
+         
+        >
+        <TextView 
+            android:id="@+id/tb_lv_tv_phone"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="phone"
+        	android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+            />
+       
+        <TextView
+            android:id="@+id/tb_lv_tv_city"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="city"
+        	android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+             />
+        
+          
+    </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/tb_lv_ll_bar3"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/tb_lv_ll_bar2"
+         android:orientation="horizontal"
+         android:padding="5sp"
+         android:weightSum="2"
+          android:layout_marginLeft="10sp"
+           >
+
+       
+
+    <TextView 
+           android:id="@+id/tb_lv_tv_email"
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:text="email" 
+        	android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+        	android:layout_weight="1"
+            
+        
+            />
+       
+        <TextView 
+            android:id="@+id/tb_lv_tv_address"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Address"
+        	android:textColor="@color/item_text_color"
+        	android:paddingLeft="10sp"
+        	android:layout_weight="1"
+            
+            />
+       
+    </LinearLayout>
+	<LinearLayout
+         android:id="@+id/tb_lv_ll_bar4"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/tb_lv_ll_bar3"
+         android:orientation="horizontal"
+         android:padding="5sp"
+         android:weightSum="1"
+         android:layout_marginLeft="10sp"
+           >
+
+		<Button
+		    android:id="@+id/tb_btn_actiondelete"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5sp"
+		    android:layout_weight="1"
+		    android:text="Delete" 
+            android:background="@drawable/grid_graypress"
+		    />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+         android:id="@+id/tb_lv_ll_bar5"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/tb_lv_ll_bar4"
+         android:orientation="horizontal"
+         android:padding="5sp"
+         android:weightSum="1"
+        android:layout_marginLeft="10sp"
+           >
+	
+    <TextView 
+        android:id="@+id/tb_lv_item_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        	
+        android:visibility="gone"
+        android:layout_below="@id/tb_lv_ll_bar4"
+        
+        />   
+        </LinearLayout>
+        
+    
+    
+      
+</RelativeLayout>

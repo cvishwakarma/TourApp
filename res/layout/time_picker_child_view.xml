@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="10sp"
+    android:background="@drawable/grid_back"
+     >
+
+    <TimePicker
+        android:id="@+id/tpca_timepicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <Button 
+        android:id="@+id/tpca_btn_action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tpca_btn_action"
+        android:layout_below="@id/tpca_timepicker"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+    
+</RelativeLayout>

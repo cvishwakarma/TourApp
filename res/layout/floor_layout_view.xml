@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/tv_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/section_label"
+        android:text="Parking Lot\nFloor Plan"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+         />
+    
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking 1"
+        android:onClick="Booking"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking 2" 
+        android:onClick="Booking"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking 3" 
+        android:onClick="Booking"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking 4" 
+        android:onClick="Booking"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking 5"
+        android:onClick="Booking" />
+
+</LinearLayout>

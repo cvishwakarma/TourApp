@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+    >
+    
+    <LinearLayout 
+        android:id="@+id/tb_ll_bar1"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+       <Button
+             android:id="@+id/tb_btn_confirm"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10sp"
+			 android:layout_weight="1"
+             android:text="@string/tb_btn_confirm"
+             android:background="@drawable/grid_press"
+		/>
+        <Button
+             android:id="@+id/tb_btn_gb"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10sp"
+			 android:background="@drawable/grid_press"
+             android:text="@string/tb_btn_gb"
+             android:layout_weight="1"
+		/>
+    
+    </LinearLayout>
+<ListView 
+        android:id="@+id/tblv_fullList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:dividerHeight="10sp"
+        android:layout_above="@id/tb_ll_bar1"
+        android:background="#fff"
+        >
+    </ListView>
+
+    
+</RelativeLayout>

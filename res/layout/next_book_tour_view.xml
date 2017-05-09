@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    
+      <EditText
+        android:id="@+id/ntb_et_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10sp"
+        android:hint="@string/ntb_et_name"
+        android:layout_alignParentTop="true"
+        android:inputType="text" 
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+    
+    
+     <Spinner
+              android:id="@+id/ntb_spin_gender"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7sp"
+              android:entries="@array/bt_spin_gender" 
+              android:layout_below="@id/ntb_et_name"
+               android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+              
+              />
+    
+    <EditText
+        android:id="@+id/ntb_et_email"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10sp"
+        android:layout_below="@id/ntb_spin_gender" 
+        android:hint="@string/bt_et_email"
+        android:inputType="textEmailAddress"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+       />
+            
+    <EditText 
+       android:id="@+id/ntb_et_phone"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_margin="10sp"
+       android:hint="@string/bt_et_phone"
+       android:layout_below="@id/ntb_et_email"
+       android:inputType="number"
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"/>
+    
+    <EditText 
+      android:id="@+id/ntb_et_city"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_margin="10sp"
+      android:hint="@string/bt_et_city"
+      android:layout_below="@id/ntb_et_phone"
+       android:inputType="text" 
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"/>
+    
+    <EditText 
+       android:id="@+id/ntb_et_address"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_margin="10sp"
+       android:hint="@string/bt_et_address"
+       android:layout_below="@id/ntb_et_city" 
+       android:inputType="text"  
+       android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"/>
+    <EditText 
+       android:id="@+id/ntb_et_age"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_margin="10sp"
+       android:hint="@string/bt_et_age"
+       android:layout_below="@id/ntb_et_address"
+       android:inputType="number"
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+       />
+    
+        <Button 
+        android:id="@+id/ntb_btn_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ntb_btn_confirm"
+        android:layout_margin="10sp"
+        android:layout_marginTop="3sp"
+      android:layout_alignParentBottom="true"   
+         android:background="@drawable/grid_press"
+         />
+    
+     
+    
+</RelativeLayout>

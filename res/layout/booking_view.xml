@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+ <LinearLayout 
+     	android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_alignParentBottom="true"
+         android:layout_margin="10sp"
+         
+     >
+     <Button 
+         android:id="@+id/btn_basement"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Basement"
+         android:layout_margin="10sp"
+              android:onClick="pageaction"
+         />
+     <Button 
+         android:id="@+id/btn_floor1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="First Floor"
+         android:layout_margin="10sp"
+              android:onClick="pageaction"
+         />
+     <Button 
+         android:id="@+id/btn_floor2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Second Floor"
+         android:layout_margin="10sp"
+              android:onClick="pageaction"
+         />
+     
+ </LinearLayout>
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         android:src="@drawable/logo" 
+         android:layout_margin="20sp"
+         />
+ 
+</RelativeLayout>
+

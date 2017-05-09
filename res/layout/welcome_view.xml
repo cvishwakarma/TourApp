@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         android:src="@drawable/logo" 
+         android:layout_margin="20sp"
+         />
+
+	
+	<TextView 
+		android:id="@+id/wa_tv_email"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="15sp"
+		android:gravity="center"
+		android:layout_alignParentBottom="true"    
+	    />
+	<TextView
+	    android:id="@+id/wa_tv_phone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="15sp"
+		android:gravity="center"
+		android:layout_above="@id/wa_tv_email"    
+	     />
+	<TextView 
+	    android:id="@+id/wa_tv_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="15sp"
+		android:gravity="center"
+		android:layout_above="@id/wa_tv_phone"
+	    />
+    
+    
+</RelativeLayout>

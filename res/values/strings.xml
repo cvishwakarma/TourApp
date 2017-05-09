@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Around The World</string>
+
+    <!--  Welcome Activity  -->
+    <string name="wa_message">Welcome</string>
+
+    <!--  Reg Activity -->
+    <string name="ra_name">Write Name Here</string>
+    <string name="ra_phone">Write Phone Here</string>
+    <string name="ra_email">Write Email Here</string>
+    <string name="ra_cityl">Write City Here</string>
+    <string name="ra_action">Register App</string>
+    <string name="ra_action2">Later</string>
+
+
+    <!--  Update Settings  Activity -->
+    <string name="usa_name">Write Name Here</string>
+    <string name="usa_phone">Write Phone Here</string>
+    <string name="usa_email">Write Email Here</string>
+    <string name="usa_city">Write city Here</string>
+    <string name="usa_action">Update</string>
+
+
+    <!-- DatePicker Activity -->
+    <string name="dpa_tv_text">Please Select Date</string>
+    <string name="dpa_btn_action">Press Here</string>
+
+
+    <!-- DatePicker Child Activity -->
+    <string name="dpca_btn_action">Select Date</string>
+
+
+    <!-- TimePicker Activity -->
+    <string name="tpa_tv_text">Please Select Time</string>
+
+    <!-- TimePicker Child Activity -->
+    <string name="tpca_btn_action">Select Time</string>
+
+
+    <string-array name="duration" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+
+
+
+
+
+    <!-- my string -->
+
+    <!-- Book Tour Activity -->
+
+    <string name="bt_et_name">Name</string>
+    <string name="bt_et_email">Email</string>
+    <string name="bt_et_phone">Phone</string>
+    <string name="bt_et_city">City</string>
+    <string name="bt_et_address">Address</string>
+    <string name="bt_et_age">Age</string>
+    <string-array name="bt_spin_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="bt_btn_action1">More</string>
+    <string name="bt_btn_action2">Confirm</string>
+
+
+    <!-- Tour Book -->
+    <string name="dt_btn_delete">Delete</string>
+    <string name="tb_btn_confirm">confirm</string>
+    <string name="tb_btn_gb">Go Back</string>
+
+    <!-- Tour Book View -->
+    <string name="tb_btn_pay">Payment</string>
+
+
+    <!--Next Book Tour Activity -->
+
+    <string name="ntb_et_name">Name</string>
+    <string name="ntb_et_email">Email</string>
+    <string name="ntb_et_phone">Phone</string>
+    <string name="ntb_et_city">City</string>
+    <string name="ntb_et_address">Address</string>
+    <string name="ntb_et_age">Age</string>
+    <string-array name="ntb_spin_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="ntb_btn_confirm">Confirm</string>
+
+    <!-- Booking -->
+    <string name="bk_btn_single">Single Booking</string>
+    <string name="bk_btn_multi">Multipal Booking</string>
+
+    <!-- Customized Booking -->
+    <string name="csb_et_cname">City Form/Country From</string>
+    <string name="csb_et_ctname">City To/Country To</string>
+    <string name="csb_btn_date">Select</string>
+
+    <string-array name="csb_spin_days" >
+        <item>--Select Days--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="csb_spin_mode" >
+        <item>--Select Mode--</item>
+        <item>Train</item>
+        <item>Flight</item>
+
+    </string-array>
+
+    <string-array name="csb_spin_hotel" >
+        <item>--Select Hotel--</item>
+        <item>5 Star</item>
+        <item>4 Star</item>
+        <item>3 Star</item>
+        <item>Budget Hotel</item>
+
+    </string-array>
+    <string name="csb_cb_ptaxi">Personal Taxi</string>
+
+    <string-array name="csb_spin_vmode" >
+        <item>--Select Visit Perpose--</item>
+        <item>Family</item>
+        <item>Bussines</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string name="csb_btn_action">Submit</string>
+
+    <!-- Enquiry -->
+    <string name="eq_et_name">Name</string>
+    <string name="eq_et_email">Email</string>
+    <string name="eq_et_phone">Phone</string>
+    <string name="eq_et_city">City</string>
+    <string name="eq_et_about">About</string>
+    <string name="eq_btn_sent">Send</string>
+    <string name="eq_btn_reset">Reset</string>
+
+</resources>

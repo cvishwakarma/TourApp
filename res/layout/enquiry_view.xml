@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:layout_margin="0sp"
+    android:background="@drawable/background"
+    
+    >
+ 
+ <LinearLayout 
+     android:id="@+id/list"
+      android:layout_width="match_parent"
+  	  android:layout_height="wrap_content"
+      android:orientation="vertical"
+     >
+     
+      <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:weightSum="3"
+    
+    >
+    
+    <TextView 
+    
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_et_name"
+         android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        style="@android:color/transparent"
+         android:padding="10sp"
+        />
+    <EditText
+        android:id="@+id/et_f2"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:inputType="textPersonName"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        style="@android:color/transparent"
+         />
+    
+
+</LinearLayout>
+
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:weightSum="3"
+    android:layout_margin="5sp"
+    >
+    
+    <TextView 
+    
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_et_email"
+         android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        style="@android:color/transparent"
+         android:padding="10sp"
+        />
+    <EditText
+        android:id="@+id/et_f3"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:inputType="textEmailAddress"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         />
+    
+
+</LinearLayout>
+  
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5sp"
+    android:weightSum="3"
+    
+    >
+    
+    <TextView 
+    
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_et_phone"
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        
+        
+        
+        />
+    <EditText
+        android:id="@+id/et_f4"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:inputType="phone"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         />
+    
+
+</LinearLayout>    
+
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:weightSum="3"
+    android:layout_margin="5sp"
+    >
+    
+    <TextView 
+    
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_et_city"
+         android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         android:padding="10sp"
+        style="@android:color/transparent"
+        />
+    <EditText
+        android:id="@+id/et_f5"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:inputType="text"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         />
+    
+
+</LinearLayout>
+ 
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  
+    android:weightSum="3"
+    android:layout_margin="5sp"
+    >
+    
+    <TextView 
+    
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_et_about"
+         android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         android:padding="10sp"
+        style="@android:color/transparent"
+        />
+    <EditText
+        android:id="@+id/et_f6"
+    	android:layout_width="fill_parent"
+		android:layout_height="100sp"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top|left"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+         />
+    
+
+</LinearLayout>
+ 
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:weightSum="2"
+    android:layout_margin="5sp"
+    >
+    
+    <Button 
+        android:id="@+id/btn_action1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="5sp"
+        android:text="@string/eq_btn_sent"
+        android:onClick="Send"
+        android:background="@drawable/grid_press"
+        />
+    <Button
+        android:id="@+id/btn_action2"
+        android:text="@string/eq_btn_reset"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="2sp"
+        android:onClick="Reset"
+        android:background="@drawable/grid_press"
+         />
+    
+
+</LinearLayout>
+ 
+ </LinearLayout>
+
+</LinearLayout>

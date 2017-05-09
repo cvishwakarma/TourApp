@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    
+     >
+     
+    <TextView 
+        android:id="@+id/csb_tv_head"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Your Costomiz Booking"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:textColor="@color/hd_text_color"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        
+        />
+    
+    <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/csb_tv_head"
+      
+      >
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+      
+          >
+   
+      <EditText
+        android:id="@+id/csb_et_cname"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10sp"
+        android:hint="@string/csb_et_cname"
+        
+        android:inputType="text" 
+          android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+    
+      <EditText
+        android:id="@+id/csb_et_ctname"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10sp"
+        android:hint="@string/csb_et_ctname"
+        android:layout_below="@id/csb_et_cname"
+        android:inputType="text" 
+          android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+    
+       <LinearLayout 
+           android:id="@+id/csb_ll_actions"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:weightSum="3"
+           android:layout_margin="10sp"
+           
+           >
+       
+          <EditText
+           android:id="@+id/csb_et_date"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Date"
+           android:focusable="false"
+           android:layout_weight="1"
+           android:singleLine="true" 
+             android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+            
+       <Button 
+           android:id="@+id/csb_btn_date"
+           android:layout_width="fill_parent"
+           android:layout_height="35sp"
+           android:text="@string/csb_btn_date"
+           android:layout_weight="2"
+           android:singleLine="true"
+           android:background="@drawable/grid_press"
+           
+           />
+       
+    	</LinearLayout>
+    
+        <Spinner
+              android:id="@+id/csb_spin_days"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7sp"
+              android:entries="@array/csb_spin_days" 
+              android:padding="10sp"
+              android:background="@drawable/text_bg_view"
+              android:textColor="#000"
+        
+        
+              />
+        
+         <Spinner
+              android:id="@+id/csb_spin_mode"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7sp"
+              android:entries="@array/csb_spin_mode" 
+              android:padding="10sp"
+              android:background="@drawable/text_bg_view"
+              android:textColor="#000"
+              
+        
+              />
+    
+     	 <Spinner
+              android:id="@+id/csb_spin_hotel"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7sp"
+              android:entries="@array/csb_spin_hotel" 
+              android:padding="10sp"
+              android:background="@drawable/text_bg_view"
+              android:textColor="#000"
+              
+        
+              />
+
+	     <CheckBox 
+     	      android:id="@+id/csb_cb_ptaxi" 
+     		  android:layout_margin="10sp"
+       		  android:layout_height="wrap_content"
+        	  android:layout_width="fill_parent"
+        	  android:text="@string/csb_cb_ptaxi"
+        	  android:padding="10sp"
+              android:background="@drawable/text_bg_view"
+              android:textColor="#000"
+        	  />
+
+	     <Spinner
+              android:id="@+id/csb_spin_vmode"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7sp"
+              android:entries="@array/csb_spin_vmode" 
+              android:padding="10sp"
+              android:background="@drawable/text_bg_view"
+              android:textColor="#000"
+               
+        
+              />
+	     
+	     
+	      <Button 
+	         android:id="@+id/csb_btn_action"
+	         android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_margin="10sp"
+	         android:text="@string/csb_btn_action"
+	         android:background="@drawable/grid_press"
+	         />
+	     
+</LinearLayout>
+ </ScrollView>
+		     
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+     >
+    
+    <EditText 
+        android:id="@+id/ra_et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ra_name"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20sp"
+        android:inputType="textPersonName"
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+    <EditText 
+        android:id="@+id/ra_et_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ra_email"
+        android:layout_below="@id/ra_et_name"
+        android:layout_margin="20sp"
+        android:inputType="textEmailAddress"
+        android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+    <EditText 
+        android:id="@+id/ra_et_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ra_phone"
+        android:layout_below="@id/ra_et_email"
+        android:layout_margin="20sp"
+        android:inputType="phone"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        />
+        <EditText 
+        android:id="@+id/ra_et_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ra_cityl"
+        android:layout_below="@id/ra_et_phone"
+        android:layout_margin="20sp"
+        android:inputType="text"
+         android:padding="10sp"
+        android:background="@drawable/text_bg_view"
+        android:textColor="#000"
+        
+        />
+    
+    <Button 
+        android:id="@+id/ra_btn_later"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ra_action2"
+        android:layout_margin="20sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/grid_press"
+        
+        
+        />
+    <Button 
+        android:id="@+id/ra_btn_regapp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ra_action"
+        android:layout_margin="20sp"
+        android:layout_above="@id/ra_btn_later"
+        android:background="@drawable/grid_press"
+        />
+
+</RelativeLayout>

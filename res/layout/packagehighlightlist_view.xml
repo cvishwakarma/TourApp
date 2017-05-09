@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+     >
+      <TextView 
+        android:id="@+id/hd_tv_pgt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Package Title"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        
+        />
+    
+    
+    <LinearLayout
+        android:id="@+id/hd_ll_pt"
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@id/hd_tv_pgt"
+        >
+        <TextView 
+            android:id="@+id/hd_tv_src"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Source"
+            android:layout_weight="1"
+            android:layout_marginLeft="30sp"
+            />
+        <TextView 
+            android:id="@+id/hd_tv_dest"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Destination"
+            android:layout_weight="1"
+            android:layout_marginLeft="30sp"
+            />
+        
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_booktour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="5sp"
+        android:layout_alignParentBottom="true"
+        android:text="Book Tour Now!!!"
+        android:background="@drawable/grid_press"
+         />
+
+    <ListView 
+		android:id="@+id/lv_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5sp"
+		android:layout_above="@id/btn_booktour"
+		android:divider="#e5e5e5"
+		android:dividerHeight="10sp"
+		android:layout_below="@id/hd_ll_pt"		        
+        >
+    </ListView>
+    
+</RelativeLayout>

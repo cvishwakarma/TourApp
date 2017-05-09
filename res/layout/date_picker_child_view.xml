@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:paddingTop="20sp"
+	android:paddingBottom="20sp"
+	android:background="@drawable/grid_back"
+     >
+
+    <DatePicker
+        android:id="@+id/dpca_dp_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:calendarViewShown="false"
+        />
+    <Button 
+        android:id="@+id/dpca_btn_action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dpca_btn_action"
+        android:layout_margin="20sp"
+        android:layout_below="@id/dpca_dp_date"
+        />
+
+</RelativeLayout>
